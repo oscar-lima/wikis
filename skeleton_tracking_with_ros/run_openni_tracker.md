@@ -20,8 +20,14 @@ Documentation available at:
 
 4. Surrender in Pi position (see website ros documentation)
 
+5. Configure rviz:
 
-Done! now you should be able to track your skeleton with rviz and tf (add tf topic to rviz)
+select fixed frame : openni_depth_frame
+
+add tf topic
+
+
+Done! now you should be able to track your body with rviz and tf by using depth camera
 
 
 Troubleshooting
