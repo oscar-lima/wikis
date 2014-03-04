@@ -22,7 +22,7 @@ Documentation available at:
  
 in Pi position -> http://3.bp.blogspot.com/-t9FxKt9JUts/TWfK4juSF7I/AAAAAAAABBI/36-uvouIG7I/s320/PsiPose.gif
 
-5. Configure rviz:
+5 Configure rviz:
 
 select fixed frame : openni_depth_frame
 
