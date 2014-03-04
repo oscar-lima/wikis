@@ -1,0 +1,48 @@
+Youbot physical access
+======================
+
+ssh student@youbot-brsu-#-pc1
+
+# - youbot number
+
+ip address:
+
+		192.168.#.55
+		192.168.#.101
+		
+export ROS_MASTER_URI=http://youbot-brsu-1-p1:11311
+
+shutdown -h now
+
+roslaunch mir_bring robot.launch
+
+Example for youbot-4 and oscar account
+======================================
+
+Connect to youbot-developers network:
+
+		password: area4251
+
+Check if youbot is responding:
+		
+		ping youbot-brsu-4-pc1
+
+Should respond similar to this:
+		
+		PING youbot-brsu-4-pc1 (192.168.13.141) 56(84) bytes of data.
+		64 bytes from youbot-brsu-4-pc1 (192.168.13.141): icmp_req=1 ttl=64 time=152 ms
+		64 bytes from youbot-brsu-4-pc1 (192.168.13.141): icmp_req=2 ttl=64 time=2.05 ms
+		64 bytes from youbot-brsu-4-pc1 (192.168.13.141): icmp_req=3 ttl=64 time=2.00 ms
+
+If this is the case proceed to connect via ssh:
+
+		ssh oscar@youbot-brsu-4-pc1
+		#enter your password
+
+Extra information (if needed)
+=============================
+		
+ip address:
+
+		192.168.4.55
+		192.168.4.101

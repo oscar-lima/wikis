@@ -1,0 +1,77 @@
+commands to learn soon
+======================
+
+exit - to close terminal
+
+sudo !! - to call the last command with sudo
+
+apropos keyword - to print commands related to the texted keyword
+
+man command - to view the manual for a given command
+
+ls -R - list directory recursively
+
+apt-cache show package_name - gives more information about the existing package
+
+command | less - shows a quick overview of arguments that can apply to the command
+
+which appname - to see the version of an application or its location
+
+grep keyword filename.ext - search for the keyword in the filename.ext content and prints the matches in terminal
+
+command | grep keyword - limit the output of the command to the lines containing the keyword
+
+ps -e - shows a list of all running processes
+
+top - shows more information about your running processes such as cpu % usage
+
+htop - nice interface for top (needs installation -> sudo apt-get install htop)
+
+kill process_PID - shutdown the desired process
+
+command > filename.ext - save the output of a command to file
+
+file_or_command >> file - append output of a command to file
+
+command_1 && command_2 - same, but only executes the command_2 in case of success of command_1 by returning 0
+
+ifconfig - network interface information
+
+ssh username@ip_address - connect to a remote server
+
+scp -r source_filename:username@ip_address target_filename:target_username@target_ip_address - copy files or directories over the network recursively
+
+rsync source target - copy only the changes (see previous command)
+
+ping ip_address - check if the target is online and responding
+
+netstat - network monitor
+
+iptables -L - view firewall rules
+
+nmap localhost - show open ports on your machine
+
+wget http://example.com/folder/file - download a file over the web
+
+wget -c http://example.com/folder/file - complete a partially downloaded file
+
+chown user_name:group_name directory_name - change the owner of a file or directory
+
+chmod -change the privileges of a file or directoy (see man for usage)
+
+su username - temporarly become a different user
+
+lsof - to see what process is using which file
+
+diff file_1 file_2 - to see the differences between two files
+
+time command - execute a command and print out how much time it took to process
+
+lsb_release -a - print current linux distro
+
+uname -a - print wether ur system is 32 or 64 bits (linux kernel version)
+
+dpkg --get-selections - to view installed packages
+
+lsusb - list hardware connected via usb
+
