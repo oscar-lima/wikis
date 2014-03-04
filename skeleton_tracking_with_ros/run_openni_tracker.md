@@ -10,19 +10,31 @@ Documentation available at:
 
 		roscore
 
-2. Run openni.launch
-
-		roslaunch openni_launch openni.launch
-
-3. Run rviz
+2. Run rviz
 
 		rosrun rviz rviz
 
-4. Run the openni tracker
+3. Run the openni tracker
 
 		rosrun openni_tracker openni_tracker
 
-5. Surrender in Pi position (see website ros documentation)
+4. Surrender in Pi position (see website ros documentation)
 
 
 Done! now you should be able to track your skeleton with rviz and tf (add tf topic to rviz)
+
+
+Troubleshooting
+===============
+
+Verify that depth camera is publishing pointclouds on ros:
+
+Run openni.launch
+
+		roslaunch openni_launch openni.launch
+	
+Open and configure rviz:
+
+		rosrun rviz rviz
+		
+Select fixed frame as camera link, add pointcloud2 topic and select pointcloud topic.
