@@ -19,7 +19,7 @@ Download the avatar via ftp from the followgin website:
 it will ask for credentials you can use this ones from BRSU:
 
 		username: brsu@robokind-dl.com
-		password: l78T83sd381Uc2Z
+		password: your_password
 
 Extract the folder, you should see now something like this:
 
