@@ -18,8 +18,8 @@ Download the avatar via ftp from the followgin website:
 
 it will ask for credentials you can use this ones from BRSU:
 
-		username: brsu@robokind-dl.com
-		password: your_password
+		username: your_username (you need to purchase a zeno to have this)
+		password: your_password (you need to purchase a zeno to have this)
 
 Extract the folder, you should see now something like this:
 
@@ -27,14 +27,14 @@ Extract the folder, you should see now something like this:
 
 modify the mvn settings.xml file to include the zeno proper server:
 
-		kate /usr/local/apache-maven/apache-maven-3.1.1/conf/settings.xml
+		gedit /etc/maven2/settings.xml
 
 add this lines:
 
 		<server>
 			<id>hrk_commercial</id>
 			<!--id>ftp://robokind-dl.com</id-->
-            <username>brsu@robokind-dl.com</username>
+            <username>your_username</username>
             <password>your_password</password>
         </server>
 
