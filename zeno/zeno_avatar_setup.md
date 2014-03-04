@@ -35,7 +35,7 @@ add this lines:
 			<id>hrk_commercial</id>
 			<!--id>ftp://robokind-dl.com</id-->
             <username>brsu@robokind-dl.com</username>
-            <password>l78T83sd381Uc2Z</password>
+            <password>your_password</password>
         </server>
 
 run the avatar from the proper location (first time you must be connected to the internet):
