@@ -20,7 +20,7 @@ Documentation available at:
 
 4. Stand in front of kinect at a distance of 2 m roughly and surrender 
  
-in Pi position (http://3.bp.blogspot.com/-t9FxKt9JUts/TWfK4juSF7I/AAAAAAAABBI/36-uvouIG7I/s320/PsiPose.gif)
+in Pi position -> http://3.bp.blogspot.com/-t9FxKt9JUts/TWfK4juSF7I/AAAAAAAABBI/36-uvouIG7I/s320/PsiPose.gif
 
 5. Configure rviz:
 
