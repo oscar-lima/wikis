@@ -1,5 +1,5 @@
-remove close multiple terminals warning of terminator
-=====================================================
+Remove "close multiple terminals?" warning when closing terminator
+==================================================================
 
 This tutorial will help you to configure terminator not to display the annoying message
 
