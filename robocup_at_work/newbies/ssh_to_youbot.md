@@ -9,8 +9,8 @@ Documentation available at:
 
 0. Connect to the same network, must likely you will work with "youbot-developers" wifi network:
 
-		password: area4251 or area5142
-
+		password: Ask someone who knows.  
+		
 1. Run the command:
 
 		ssh username@youbot-brsu-#-pc1
