@@ -40,3 +40,9 @@ goal:
 tolerance: 0.1"
 
 2. clearing the costmap
+
+		rosservice call /move_base/clear_costmaps
+		
+3. Cancelling goal
+
+		rostopic pub /move_base/cancel actionlib_msgs/GoalID -- {}
