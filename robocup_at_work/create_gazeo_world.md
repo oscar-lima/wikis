@@ -16,7 +16,7 @@ Although this tutorial does not explain this process.
 
 Go to this location
 
-		cd ~/ros_ws/at_work/src/mas_common_robotics/mcr_environments/mcr_gazebo_worlds/ros/launch
+		cd ~/ros_ws/robocup/src/mas_common_robotics/mcr_environments/mcr_gazebo_worlds/ros/launch
 
 Create your own launch file:
 
@@ -42,7 +42,7 @@ modify default value from  "brsu-c025" to "foo-world" as follows:
 
 go to this location:
 
-		cd ~/ros_ws/at_work/src/mas_common_robotics/mcr_environments/mcr_gazebo_worlds/common/worlds
+		cd ~/ros_ws/robocup/src/mas_common_robotics/mcr_environments/mcr_gazebo_worlds/common/worlds
 
 insert your foo urdf model of your world
 
