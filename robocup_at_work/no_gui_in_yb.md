@@ -1,5 +1,5 @@
-no gui in yb
-============
+no gui in ubuntu
+================
 
 This tutorial helps for not showing gui environment on ubuntu pc on startup
 This can be helpful when having a robot with pc but no monitor, by setting
