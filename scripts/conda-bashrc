@@ -1,0 +1,12 @@
+#unsource any ros distribution on your pc
+[ -f "~/.bashrc" ] && source ~/.bashrc
+PATH=$HOME/programs/anaconda/bin:$PATH
+PS1="\e[1;31;40m[CONDA]\e[0m $PS1"
+
+#alias for handling anaconda ipython notebook and qt console 
+alias ipy='ipython qtconsole --pylab'
+alias startnb='ipython notebook --pylab=inline'
+alias nb2pdf='ipython nbconvert --to latex --post PDF'
+
+#adding to the python path some other folders you may have and want to include into the environment
+export PYTHONPATH=$PYTHONPATH:~/programs/mlpy/lib/python2.7/site-packages
