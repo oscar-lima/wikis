@@ -28,7 +28,7 @@ Give permission to run driver node as sudo:
 
 (NOTE: This step will be automatically performed by the ./repositorydebs instruction, for the at work hbrsu team)
 
-		cd ~/hydro/devel/lib
+		cd ~/hydro/devel/lib/youbot_driver_ros_interface
 		sudo setcap cap_net_raw+ep youbot_driver_ros_interface
 
 Run the robot initialization:
