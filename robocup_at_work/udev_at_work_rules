@@ -1,0 +1,31 @@
+udev_at_work_rules
+==================
+
+Not only the hokuyo needs simlink but also the microsoft lifecam and lcd display
+
+here is a copy of the udev rules that our robot has, this creates automatic
+simlinks for you under /dev/youbot to work with at work repository (mas_industrial_robotics
+
+1. go to the location of the udev rules
+
+		cd /etc/udev/rules.d
+
+2. Create empty file to contain the rules
+
+		nano 80-youbot-brsu-2-devices.rules
+
+3. fill it with the following information
+
+SUBSYSTEM=="tty", KERNEL=="ttyACM*", KERNELS=="3-1:1.0", SYMLINK+="youbot/hokuyo_front", MODE="0666"
+SUBSYSTEM=="tty", KERNEL=="ttyACM*", KERNELS=="3-3:1.0", SYMLINK+="youbot/hokuyo_rear", MODE="0666"
+
+SUBSYSTEM=="video4linux", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="0772", SYMLINK+="youbot/microsoft_life_cam", MODE="0666"
+
+SUBSYSTEM=="tty", ATTRS{idVendor}=="16d0", ATTRS{idProduct}=="059d", KERNEL=="ttyACM*", SYMLINK+="youbot/lcd_display", RUN+="/etc/youbot/youbot_battery_monitor.sh"
+
+Done!
+
+By now everytime you connect the hokuyo laser scanner usb or the microsoft lifecam
+a simlink wil be automatically created under /dev/youbot/(name)
+
+Also proper sudo rights will be assigned to the device
