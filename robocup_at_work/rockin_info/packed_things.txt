@@ -1,0 +1,50 @@
+packing
+=======
+
+BOX!!!!
+youbot 2
+	arm
+	lifecam
+	festo fingers x6
+	asus
+	battery x 4 (2 inside youbots, 2 in aluminium box)
+	router tp link
+	3 hokuyo mountings
+	asus support
+	joypad 2 with dongle
+	arm power cable
+	arm network cable
+	small fingers x2
+	long fingers x4
+	1 extra festo mechanic part
+	2 mounting benchmark thing
+=======
+
+aluminium BOX!!!!!!!
+
+power cords 3x
+5 network cables 2m
+4 side covers
+power supply 4x
+youbot charger 2x
+mini usb cable black (angle one)
+DLink white router with power supply
+c025 monitor with hdmi cable
+keyboard, mouse and pc workstation c025 with power cable
+youbot all in one cable
+asus with tower
+usb extension
+network cables (many)
+additional keyboard and mouse (for yb)
+referee box with charger
+
+=======
+
+second box
+
+youbot 3
+	arm
+	microsoft live cam
+	3 hokuyo mountings
+	tplink router blue small box
+	
