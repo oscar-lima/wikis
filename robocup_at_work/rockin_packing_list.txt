@@ -9,11 +9,11 @@ black toolbox
 	blue allen keys
 	zip ties (cable tie)
 	cutter
-gray toolbox
+gray toolbox (FREDS)
 youbot all in one long cable
 rockin router
 network cables (as much as we have)
-switches x2 + power adapter
+##switches x2 + power adapter
 power extensions
 referee box pc
 referee box charger
@@ -63,8 +63,11 @@ yb arm extension plate x2
 yb side plastic cover x4
 
 old at work objects (some for testing)
+    cardboard box of junk
+    grey box of junk
 
 printed finger grippers x4
 festo finger grippers x4
+Extra Festo finger mounting
 
 camera calibration rig (chessboard printout pasted on wooden board)
