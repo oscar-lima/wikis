@@ -1,0 +1,70 @@
+robocup packing list
+============
+
+This is a packing list for robocup robots. Does not include arena or objects, nor conveyor belt
+
+bag with bolt/screws
+black toolbox
+	red allen keys
+	blue allen keys
+	zip ties (cable tie)
+	cutter
+gray toolbox
+youbot all in one long cable
+rockin router
+network cables (as much as we have)
+switches x2 + power adapter
+power extensions
+referee box pc
+referee box charger
+external keyboard for yb
+external mouse for yb (logitech gray mouse with label mas mac 08)
+c025 workstation pc
+c025 workstation monitor
+c025 workstation keyboard and mouse
+yb2
+	youbot 2 arm (arm 4)
+	youbot 2 base
+	yb2 joypad
+	yb2 black rear plate
+	yb2 arm network cable
+	yb2 arm power cable
+yb3
+	youbot 3 arm (arm 1)
+	youbot 3 base
+	yb3 joypad
+	yb3 rear plate
+	yb3 arm network cable
+	yb3 arm power cable
+	yb3 original harddrive and oscar's harddrive
+
+hokuyo laser scanners x4
+angle cables for hokuyo x4 (inside the robot, just check that they are there
+
+hokuyo mountings
+	yb3 front
+	yb3 rear
+	yb3 side
+	yb2 front
+	yb2 rear
+	yb2 side
+
+microsoft live cam x2 (with mounting)
+asus depth camera x2
+asus support x2 (tower)
+yb3 tp link blue box small router with cable
+yb2 tp link blue box small router with cable
+
+yb battery x4
+battery charger x2
+yb power supply x4
+
+yb arm extension plate x2
+yb side plastic cover x4
+
+old at work objects (some for testing)
+
+printed finger grippers x4
+festo finger grippers x4
+
+camera calibration rig (chessboard printout pasted on wooden board)
