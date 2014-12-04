@@ -13,6 +13,8 @@ Documentation can be found in:
 
 		mkdir ~/test && cd ~/test
 		rosbag record /web_cam/image_raw
+		
+wait some time and then kill ALL** the processes (roscore, camera.launch, rviz, etc)
 
 3. transform the bag into jpeg images
 
@@ -28,13 +30,18 @@ put the following information on it and save it:
 
 <?xml version="1.0"?>
 <launch>
-   <node pkg="rosbag" type="play" name="rosbag" args="-d 2 ~/test/test.bag"/>
+   <node pkg="rosbag" type="play" name="rosbag" args="-d 2 /home/user/test/test.bag"/> <!-- replace user with your user -->
    <node name="extract" pkg="image_view" type="extract_images" respawn="false" output="screen" cwd="ROS_HOME">
    <remap from="image" to="/web_cam/image_raw"/>
    </node>
 </launch>
 
 ***END****
+
+rename the bag file for a simple name, the bag name should be something like this:
+
+		2014-12-04-16-42-40.bag
+		mv 2014-12-04-16-42-40.bag test.bag
 
 launch the previously created launch file:
 
@@ -48,13 +55,17 @@ notice that the images will be saved under ~/.ros folder
 
 		mv ~/.ros/frame*.jpg ~/test
 
-4. transform all jpeg images to avi video
+5. transform all jpeg images to avi video
 
 		mencoder "mf://*.jpg" -mf fps=10 -o output_video.avi -ovc lavc -lavcopts vcodec=mpeg4
 
 notice that fps refers to the framerate, for sime unknown reason you should put the real framerate divided by 3.
 
 example: my framerate is 30 fps, then put 10 in the command line arguments (fps=10)
+
+6. remove jpeg intermediate images
+
+		rm ~/test/frame*
 
 Done! Now you should be able to see that a file output_video.avi was created inside ~/test with a movie
 of your input rosbag
@@ -65,6 +76,11 @@ Resources
 Node which publishes cam images:
 
 1. copy this lines of code into a text file named camera.launch
+
+		mkdir ~/test && cd ~/test
+		gedit camera.launch
+
+===START=====
 
 <?xml version="1.0"?>
 <launch>
@@ -82,6 +98,8 @@ Node which publishes cam images:
   </node>
 
 </launch>
+
+===END=====
 
 2. replace video0 with your video device, you can do the following command to identify it:
 
