@@ -7,7 +7,7 @@ Documentation available at:
 
 		http://support.suso.com/supki/SSH_Tutorial_for_Linux
 
-0. Connect to the same network, must likely you will work with "youbot-developers" wifi network:
+0. Connect to the same network, must likely you will work with "b-it-bots" wifi network:
 
 		password: Ask someone who knows.  
 		
