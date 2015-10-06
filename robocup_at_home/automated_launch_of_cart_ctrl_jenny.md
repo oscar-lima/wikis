@@ -32,6 +32,15 @@ ssh -Xt oscar@192.168.1.101 'source ~/scripts/permanent.sh && sleep 65 && rosrun
 #arm cartesian control
 ssh -Xt oscar@192.168.1.101 'source ~/scripts/permanent.sh && sleep 65 && roslaunch mdr_arm_cartesian_control cob3.launch && echo "cartesian" && exec bash'
 
+#dashboard (launched in local pc)
+sleep 60 && export ROS_MASTER_URI=http://192.168.1.101:11311 && roslaunch mdr_bringup dashboard.launch && echo "dashboard" && exec bash
+
+#3d connexion mouse
+sleep 55 && export ROS_MASTER_URI=http://192.168.1.101:11311 && roslaunch emorobot_bringup cob.launch && echo "3dmouse" && exec bash
+
+#rqt_gui
+sleep 70 && export ROS_MASTER_URI=http://192.168.1.101:11311 && rosrun rqt_gui rqt_gui && echo "rqt_gui" && exec bash
+
 6. open your terminator profile by executing:
 
         terminator -l my_profile_name

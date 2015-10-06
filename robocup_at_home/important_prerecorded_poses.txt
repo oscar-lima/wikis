@@ -1,25 +1,19 @@
-go pre_look_at_table
-go look_at_table
-
-go prehandover
-go handover
-
-go folded
-
-go home
-go folded
-go pregrasp
-go prehandover
-go handover
-go pregrasp_top
-go grasp
-go hold
-go pre_look_at_table
-go look_at_table
-go sdhmount
-go overtray
-go overtray_top
-go intermediateback
-go intermediatebacklow
-go intermediatefront
-go intermediatefront_top
+home
+folded
+pregrasp
+prehandover
+handover
+pregrasp_top
+grasp
+hold
+pre_look_at_table
+look_at_table
+sdhmount
+overtray
+overtray_top
+intermediateback
+intermediatebacklow
+intermediatefront
+intermediatefront_top
+wavein
+waveout
