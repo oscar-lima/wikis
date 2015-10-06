@@ -161,3 +161,23 @@ roslaunch mdr_arm_cartesian_control cob3.launch
 roslaunch emorobot_bringup cob.launch
 rosrun rqt_gui rqt_gui
 
+terminator automated operation
+==============================
+turn on key
+check for 3 emergency stops to be released
+wait until jenny computer is on (about 15 seconds)
+-----
+type jenny_cartesian (terminator -l jenny_cartesian)
+wait 70 second until all nodes are launched
+go to moveit commander terminal
+be carefull to hear the arm clack, if not then initalize manually the arm (telnet)
+use arm, go pregrasp, go prehandover, go handover
+go to emorobot rqt_gui click:
+ -> load module
+ -> to velocity (to move with 3d mouse)
+ -> to position (to move with moveit)
+keep in mind that jenny dashboard columns arm settings, arm pose, and arm traj they all dont work
+
+when shutting down:
+go prehandover, go pregrasp, go folded
+Done!
