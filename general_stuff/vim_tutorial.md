@@ -155,4 +155,9 @@ window
 
 		vim -o file1.txt file3.txt
 
-19. Done! Now you should be able to edit and create text files with vim editor
+19. open several files in vim
+
+		vim file1.txt file2.txt file3.txt
+		:bd - close the current buffer, will go to the next file
+
+20. Done! Now you should be able to edit and create text files with vim editor
