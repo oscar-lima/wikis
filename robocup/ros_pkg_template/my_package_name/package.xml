@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <name>my_package_name</name>
+  <version>1.0.0</version>
+  <description>
+    template for robocup packages
+  </description>
+
+  <license>GPLv3</license>
+
+  <author email="olima_84@yahoo.com">Oscar Lima</author>
+  <maintainer email="olima_84@yahoo.com">Oscar Lima</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>

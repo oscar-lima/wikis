@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+
+import my_package_name_ros.my_node_implementation
+
+if __name__ == '__main__':
+    my_package_name_ros.my_node_implementation.main()
