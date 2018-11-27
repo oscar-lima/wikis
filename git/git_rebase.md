@@ -15,6 +15,9 @@ https://www.youtube.com/watch?v=dO9BtPDIHJ8
 nice bitbucket tutorial about what is a rebase (text) :
 https://www.atlassian.com/git/tutorials/merging-vs-rebasing
 
+to understand bettre the --onto flag of the rebase :
+https://content.pivotal.io/blog/git-rebase-onto
+
 Scenario
 ===
 
@@ -46,12 +49,15 @@ wait until feature_a gets merged into master by admin, then once feature_a is me
         git checkout master # change to master branch
         git pull origin master # update master branch
         git checkout feature_b # change to feature_b branch
-        git rebase --onto master feature_a feature_b # get merge commit created from the merge of feature_a into master into feature_b branch
+        git rebase --onto master feature_a feature_b # insert merge commit (created by the acceptance of the PR into master) into commit history of feature_b
+        git push my_remote feature_b
 
-clean
+make pull request of feature_b into master
 
-        git push origin --delete feature_a # delete remote branch feature_a
-        git push origin --delete feature_b # delete remote branch feature_b
+clean local and remote repos
+
+        git push my_remote --delete feature_a # delete remote branch feature_a
+        git push my_remote --delete feature_b # delete remote branch feature_b
         git branch -D feature_a # delete local branch feature_a
         git branch -D feature_b # delete local branch feature_b
 
